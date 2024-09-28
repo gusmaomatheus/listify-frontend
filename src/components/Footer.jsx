@@ -2,7 +2,7 @@ import Text from "./Text";
 
 export default function Footer() {
     return (
-        <footer className="fixed top-[93%] left-[25%] right-[25%] flex flex-col items-center">
+        <footer className="flex flex-col items-center mt-[16px]">
             <Text color="#6aa9e9" size={18} weight={800}>
                 &copy; 2024 Direitos Reservados
             </Text>
