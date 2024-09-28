@@ -6,6 +6,7 @@ export default function Text({
     letterSpacing = 0,
     weight = 400,
     uppercase = false,
+    centralize = false,
 }) {
     return (
         <Tag
@@ -15,6 +16,7 @@ export default function Text({
                 color: color,
                 letterSpacing: letterSpacing,
                 textTransform: uppercase ? "uppercase" : "none",
+                textAlign: centralize ? "center" : "start",
             }}
         >
             {children}
