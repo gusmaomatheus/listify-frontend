@@ -1,6 +1,6 @@
-import Text from "../components/Text";
-import NavLink from "../components/NavLink";
-import FeedbackCard from "../components/FeedbackCard";
+import Text from "../../components/Text";
+import NavLink from "../../components/NavLink";
+import FeedbackCard from "../../components/FeedbackCard";
 
 export default function Home() {
     return (

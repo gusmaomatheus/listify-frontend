@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
-export default function App() {
+export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
