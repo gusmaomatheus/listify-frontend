@@ -1,27 +1,11 @@
 import Text from "../../components/Text";
-import NavLink from "../../components/NavLink";
 import FeedbackCard from "../../components/FeedbackCard";
+import Header from "components/Header";
 
 export default function Home() {
     return (
         <div className="flex flex-col">
-            <header className="flex flex-col">
-                <nav className="flex justify-between mt-[40px] mx-[40px]">
-                    <div className="space-x-[20px]">
-                        <NavLink path={"/"}>Home</NavLink>
-                        <NavLink path={"/about"}>About Us</NavLink>
-                    </div>
-                    <div className="space-x-[20px]">
-                        <NavLink path={"/signin"}>Sign In</NavLink>
-                        <NavLink path={"/signup"}>Sign Up</NavLink>
-                    </div>
-                </nav>
-                <div className="mt-[20px]">
-                    <Text as="h1" color="#318CE7" size={48} letterSpacing={24} uppercase centralize>
-                        listify
-                    </Text>
-                </div>
-            </header>
+            <Header />
             <main className="flex flex-col mt-[60px] space-y-[100px] mb-[90px]">
                 <section>
                     <article>
