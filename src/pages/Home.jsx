@@ -4,7 +4,7 @@ import FeedbackCard from "../components/FeedbackCard";
 
 export default function Home() {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col">
             <header className="flex flex-col">
                 <nav className="flex justify-between mt-[40px] mx-[40px]">
                     <div className="space-x-[20px]">
@@ -22,7 +22,7 @@ export default function Home() {
                     </Text>
                 </div>
             </header>
-            <main className="flex flex-col mt-[100px] space-y-[100px] mb-[40px]">
+            <main className="flex flex-col mt-[60px] space-y-[100px] mb-[90px]">
                 <section>
                     <article>
                         <div className="space-y-[8px]">
