@@ -10,7 +10,7 @@ export default function FeedbackCard({ name = "Customer", feedback = "Nice app!"
                     {name}
                 </Text>
             </div>
-            <div className="mt-[12px]">
+            <div className="mt-[12px] px-[8px]">
                 <Text as="p" size={12} color="#818589" centralize>
                     "{feedback}"
                 </Text>
