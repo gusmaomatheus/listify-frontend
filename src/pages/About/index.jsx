@@ -28,8 +28,8 @@ export default function About() {
                     </div>
                 </article>
             </section>
-            <div className="mx-[32px] mb-[60px] border-b-[1px] border-pale-blue"></div>
-            <section className="w-[92%] self-center flex justify-between space-x-[128px] mb-[80px]">
+            <div className="mb-[60px] border-b-[1px] border-pale-blue"></div>
+            <section className="w-[92%] 2xl:w-[70%] self-center flex justify-between mb-[80px]">
                 <article>
                     <InfoCard
                         title="Culture"
