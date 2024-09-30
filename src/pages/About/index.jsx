@@ -1,3 +1,4 @@
+import InfoCard from "components/InfoCard";
 import Text from "components/Text";
 
 export default function About() {
@@ -28,28 +29,24 @@ export default function About() {
                 </article>
             </section>
             <div className="mx-[32px] mb-[60px] border-b-[1px] border-pale-blue"></div>
-            <section className="w-[80%] self-center flex justify-between space-x-[128px] mb-[120px]">
-                <article className="flex flex-col space-y-[4px]">
-                    <Text as="h2" size={28} weight={600} centralize>
-                        Culture
-                    </Text>
-                    <Text as="p" size={20} color="#818589" centralize>
-                        At Listify, we value simplicity, efficiency, and innovation. We believe that organizing life
+            <section className="w-[92%] self-center flex justify-between space-x-[128px] mb-[80px]">
+                <article>
+                    <InfoCard
+                        title="Culture"
+                        text="At Listify, we value simplicity, efficiency, and innovation. We believe that organizing life
                         should be a straightforward experience that saves time and helps achieve goals. Our commitment
                         is to create a tool that helps people stay focused and productive, always aiming to improve
-                        their routines in a practical and intuitive way.
-                    </Text>
+                        their routines in a practical and intuitive way."
+                    />
                 </article>
                 <article className="flex flex-col space-y-[4px]">
-                    <Text as="h2" size={28} weight={600} centralize>
-                        Values
-                    </Text>
-                    <Text as="p" size={20} color="#818589" centralize>
-                        Our culture is user-centered, with a constant drive for improvement. We work as a team to
+                    <InfoCard
+                        title="Values"
+                        text="Our culture is user-centered, with a constant drive for improvement. We work as a team to
                         develop solutions that truly make a difference in people's lives, fostering a collaborative,
                         agile environment open to new ideas. At Listify, innovation and continuous improvement are key
-                        to delivering a high-quality experience for all of our users.
-                    </Text>
+                        to delivering a high-quality experience for all of our users."
+                    />
                 </article>
             </section>
         </main>
